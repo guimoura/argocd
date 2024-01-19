@@ -26,6 +26,9 @@ applications:
     - name: argo-workflows
       namespace: argo
 
+    # - name: kube-downscaler
+    #   namespace: kube-downscaler
+
     # - name: jaeger
     #   namespace: jaeger
       

@@ -267,7 +267,7 @@ controller:
     format: "text"
 
   # -- Service type of the controller Service
-  serviceType: ClusterIP
+  serviceType: NodePort
   # -- Annotations to be applied to the controller Service
   serviceAnnotations: {}
   # -- Optional labels to add to the controller Service
@@ -451,7 +451,7 @@ server:
   # -- Server name string
   name: server
   # -- Service type for server pods
-  serviceType: ClusterIP
+  serviceType: NodePort
   # -- Service port for server
   servicePort: 2746
   # -- Service node port
